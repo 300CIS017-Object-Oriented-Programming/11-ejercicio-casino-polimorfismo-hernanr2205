@@ -1,7 +1,3 @@
-//
-// Created by lufe0 on 7/05/2021.
-//
-
 #ifndef CASINO_JUEGO_H
 #define CASINO_JUEGO_H
 
@@ -21,6 +17,8 @@ public:
 
     virtual float jugar(float gonzosApostar) = 0;
 
+    // Método virtual que será implementado por las clases derivadas
+    virtual void mostrarReglas() const = 0; // Método puramente virtual
 
 };
 
