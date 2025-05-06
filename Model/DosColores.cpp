@@ -56,4 +56,14 @@ float DosColores::calcularResultado(float gonzosApostar) {
 DosColores::~DosColores() {
 
 }
+void DosColores::mostrarReglas() const {
+    cout << "=========== Reglas del Juego DosColores ===========" << endl;
+    cout << "- El jugador tira un dado de 6 caras y debe elegir un color (Blanco o Negro)." << endl;
+    cout << "- El sistema genera aleatoriamente un valor y un color para el casino." << endl;
+    cout << "- Si el jugador acierta tanto el valor del dado como el color, ganará 4 veces lo apostado." << endl;
+    cout << "- Si el jugador acierta solo el valor del dado, ganará 0.5 veces lo apostado." << endl;
+    cout << "- Si el jugador acierta solo el color, no ganará ni perderá nada." << endl;
+    cout << "- Si no acierta ni el valor ni el color, perderá todo lo apostado." << endl;
+    cout << "=====================================================" << endl;
+}
 */
